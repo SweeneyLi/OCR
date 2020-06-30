@@ -1,0 +1,8 @@
+pip install --upgrade pip
+
+python -m pip install paddlepaddle-gpu==1.7.2.post107 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+conda install -c conda-forge shapely
+pip install Cython, uvicorn
+pip install Shapely-1.7.0-cp36-cp36m-win_amd64.whl
+pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
